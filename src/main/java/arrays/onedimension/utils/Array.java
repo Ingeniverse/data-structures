@@ -41,9 +41,12 @@ public class Array<T>{
          this.array = Arrays.copyOf(this.array, this.size);
      }
 
-    //TODO Implement this method
     public int getLength() {
         return length;
+    }
+
+    public int getSize() {
+        return size;
     }
 
     //TODO Implement this method
