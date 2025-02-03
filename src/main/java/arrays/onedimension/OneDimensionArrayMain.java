@@ -21,7 +21,12 @@ public class OneDimensionArrayMain {
         ingeniverseArray.add(5);
         System.out.println(ingeniverseArray.getSize());
 
+        System.out.println("Practice 1");
         System.out.println(ingeniverseArray.get(0)); //prints 3
+        System.out.println("Practice 2");
+        System.out.println(ingeniverseArray.get(-1));// Prints invalid index
+        System.out.println(ingeniverseArray.get(5));// Prints invalid index
+
 
     }
 }

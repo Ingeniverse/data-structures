@@ -56,7 +56,7 @@ public class Array<T>{
 
     //TODO Implement this method
     public T get(int index){
-         return null;
+         return (T) this.array[index];
     }
 
     //TODO Implement this method
