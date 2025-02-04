@@ -78,7 +78,6 @@ public class Array<T> {
         this.size = this.INITIAL_SIZE;
     }
 
-    //TODO Implement this method
     public String toString() {
         StringBuilder sb = new StringBuilder();
         if (this.isEmpty()) {
